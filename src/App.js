@@ -323,7 +323,7 @@ function App() {
         element={
           <div className="App">
             <div style={{ margin: '0 auto', textAlign: 'center' }}>
-              <div class="sfBTTD348992"></div>
+              <div id="yandex_rtb_R-A-13260354-1"></div>
             </div>
             <div className="firstBlock">
               {onClickOverlay ? <Overlay keyName={bindKeyName} /> : null}

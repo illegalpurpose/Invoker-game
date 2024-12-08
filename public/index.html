@@ -36,7 +36,19 @@
     
     <!-- Yandex.RTB -->
     <script>window.yaContextCb=window.yaContextCb||[]</script>
-    <script src="https://yandex.ru/ads/system/context.js" async></script>              
+    <script src="https://yandex.ru/ads/system/context.js" async></script>
+
+    <!-- Загрузка блока -->
+    <script>
+      window.yaContextCb.push(() => {
+          Ya.Context.AdvManager.render({
+              "blockId": "R-A-13260354-1",
+              "renderTo": "yandex_rtb_R-A-13260354-1"
+          })
+      })
+    </script>
+
+    <!-- Мета теги -->
     <meta name="monetag" content="3568128b5d2d263cc24992049cb31782">
     <meta charset="utf-8" />
     <link rel="icon" href="favicon.ico" />
