@@ -1,13 +1,12 @@
 import React from 'react';
 import './PreviusGameState.scss';
 
-import invoker1 from '../../img/elements.svg';
+import invoker1 from '../../img/invoker1.gif';
 import quas from '../../img/invoker_quas.png';
 import wex from '../../img/invoker_wex.png';
 import exort from '../../img/invoker_exort.png';
 import invoke from '../../img/invoker_invoke.png';
 import nospell from '../../img/no_spell.png';
-import { Link } from 'react-router-dom';
 
 const PreviusGameState = (props) => {
   return (
@@ -15,9 +14,7 @@ const PreviusGameState = (props) => {
       <h1>
         Invoker Game by <a href="https://twitter.com/iturturika">ozzy</a>
       </h1>
-      <a href="https://t.me/moneythemeboys">
-        <img src={invoker1} alt="invoker" className="img"></img>
-      </a>
+      <img src={invoker1} alt="invoker" className="img"></img>
       <button className="button" onClick={props.startGame}>
         Start Game
       </button>

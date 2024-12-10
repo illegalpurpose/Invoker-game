@@ -3,7 +3,7 @@ import PreviusGameState from './pages/PreviusGameState/PreviusGameState.js';
 import StartedGame from './pages/StartedGame/StartedGame.js';
 import FinishedGame from './pages/FinishedGame/FinishedGame.js';
 import ReactGA from 'react-ga4';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import './app.scss';
 
@@ -115,7 +115,6 @@ function App() {
     let rndIndex = Math.floor(Math.random() * arr.length);
     setArr(arr.filter((el) => el !== arr[rndIndex]));
     setRandomSpell(arr[rndIndex]);
-    console.log(rndIndex);
   };
 
   const verifingSpell = (spell) => {
@@ -316,15 +315,14 @@ function App() {
     };
     document.addEventListener('keydown', setKey);
   };
+  
   return (
     <Routes>
       <Route
         path="/"
         element={
           <div className="App">
-            <div style={{ margin: '0 auto', textAlign: 'center' }}>
-              <div id="yandex_rtb_R-A-13260354-1"></div>
-            </div>
+            <div id="yandex_rtb_R-A-13260354-1"></div>
             <div className="firstBlock">
               {onClickOverlay ? <Overlay keyName={bindKeyName} /> : null}
               <div className="controlls">

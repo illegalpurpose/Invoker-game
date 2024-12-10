@@ -14,9 +14,10 @@
 }
 
 body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//home/radiant_dire5.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../src/img/background.png");
     background-position: center;
     overflow-x:hidden;
+    zoom: 0.8;
 }
 
 .App {
@@ -57,7 +58,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 70px;
     height: 100vh;
 }
 
@@ -410,6 +411,7 @@ body{
         }
     }
     .controlls {
+        display: none;
         width: 500px;
         height: 650px;
         margin-bottom: 20px;
@@ -443,6 +445,7 @@ body{
         }
     }
     .spells {
+        display: none;
         width: 500px;
         font-size: 16px;
         margin-top: 20px;
