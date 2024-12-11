@@ -75,7 +75,7 @@ function App() {
   const [keyInvoke, setKeyInvoke] = React.useState(82);
   const [onClickOverlay, setOnClickOverlay] = React.useState(false);
   const [bindKeyName, setBindKeyName] = React.useState('QUAS');
-  const [mode, setMode] = React.useState('old');
+  const [mode, setMode] = React.useState('new');
   const [arr, setArr] = React.useState([
     'cold snap',
     'ghost walk',
@@ -129,7 +129,6 @@ function App() {
   }, [stop]);
   const stopTimer = (timerId) => {
     clearInterval(timerId);
-    console.log('cleared');
   };
   const [valueTimer, setValueTimer] = React.useState(0);
 
@@ -138,10 +137,10 @@ function App() {
     const timerI = setInterval(function () {
       value = value + 1 / 60;
       setValueTimer(value.toFixed(2));
-      if (updateRef.current > 26) {
+      if (updateRef.current > (mode === 'new' ? 9 : 26)) {
         setResultGame(value.toFixed(2));
         setGameState('Finished');
-        if (value < record && updateRef.current > 26) {
+        if (value < record && updateRef.current > (mode === 'new' ? 9 : 26)) {
           setRecord(value.toFixed(2));
         }
         stopTimer(timerI);
@@ -753,6 +752,7 @@ function App() {
                   update={update}
                   setUpdate={setUpdate}
                   mode={mode}
+                  setMode={setMode}
                 />
               ) : null}
               {gameState === 'Started' ? (
@@ -785,6 +785,7 @@ function App() {
                   record={record}
                   setRecord={setRecord}
                   resultGame={resultGame}
+                  mode={mode}
                 />
               ) : null}
               <div className="spells">

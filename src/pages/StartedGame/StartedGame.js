@@ -166,6 +166,7 @@ const StartedGame = (props) => {
               {props.spell1 === 'confuse' ? <img src={confuse} alt="spell2"></img> : null}
               {props.spell1 === 'scout' ? <img src={scout} alt="spell2"></img> : null}
               {props.spell1 === 'soul blast' ? <img src={soul_blast} alt="spell2"></img> : null}
+              {props.spell1 === 'nospell' ? <img src={nospell} alt="spell2"></img> : null}
             <span>D</span></li>
           }
           { 
@@ -212,6 +213,7 @@ const StartedGame = (props) => {
               {props.spell2 === 'confuse' ? <img src={confuse} alt="spell2"></img> : null}
               {props.spell2 === 'scout' ? <img src={scout} alt="spell2"></img> : null}
               {props.spell2 === 'soul blast' ? <img src={soul_blast} alt="spell2"></img> : null}
+              {props.spell2 === 'nospell' || props.spell2 === '' ? <img src={nospell} alt="spell2"></img> : null}
             <span>F</span></li>
           }
           <li className='square'><img src={props.mode === 'new' ? invoke : old_invoke} alt="invoke"></img><span>{String.fromCharCode(props.keyInvoke)}</span></li>
