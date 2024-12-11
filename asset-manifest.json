@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.28da46c8.css",
-    "main.js": "/static/js/main.1614b90d.js",
+    "main.css": "/static/css/main.7e4f2f25.css",
+    "main.js": "/static/js/main.dae19920.js",
     "static/media/background.png": "/static/media/background.8ebbb2fd0943b20a1e5e.png",
     "static/media/invoker1.gif": "/static/media/invoker1.bd717a6fa01e9a369f9c.gif",
     "static/media/TrajanPro-Bold.otf": "/static/media/TrajanPro-Bold.3f14e0ffe7b54e407289.otf",
@@ -9,7 +9,35 @@
     "static/media/invoker_invoke.png": "/static/media/invoker_invoke.a06dc8565470549cac5f.png",
     "static/media/invoker_wex.png": "/static/media/invoker_wex.baabeddb7150b37f5752.png",
     "static/media/invoker_quas.png": "/static/media/invoker_quas.5750837f318a07971a3f.png",
+    "static/media/arcane_arts.png": "/static/media/arcane_arts.5a86ccc026aa9d38d5f0.png",
+    "static/media/betrayal.png": "/static/media/betrayal.f5b39966cf049b592a8d.png",
+    "static/media/levitation.png": "/static/media/levitation.81cc1c596ff3bc70eb24.png",
+    "static/media/confuse.png": "/static/media/confuse.9025bcb785ba953739e4.png",
+    "static/media/chaos_meteor.png": "/static/media/chaos_meteor.67237be1a69feeccb91c.png",
+    "static/media/lightning_shield.png": "/static/media/lightning_shield.0df1cce137f8215808a5.png",
+    "static/media/telelightning.png": "/static/media/telelightning.a7ed112986dc8adea287.png",
+    "static/media/soul_blast.png": "/static/media/soul_blast.a36f1643274ba15b17d5.png",
+    "static/media/frost_nova.png": "/static/media/frost_nova.9523ebfc329d193c1ea8.png",
+    "static/media/scout.png": "/static/media/scout.a0aa1d536e1aecabb674.png",
+    "static/media/inferno.png": "/static/media/inferno.7e6d2268c1b82357bc57.png",
+    "static/media/power_word.png": "/static/media/power_word.583d1d8208f5e0087d8e.png",
+    "static/media/invisibility_aura.png": "/static/media/invisibility_aura.8eb1615e9d4261b2704c.png",
+    "static/media/disarm.png": "/static/media/disarm.e51ba0e0e5035b4a8ac0.png",
+    "static/media/firebolt.png": "/static/media/firebolt.2a8cc8e95e1eb7539c99.png",
+    "static/media/tornado.png": "/static/media/tornado.dc8931f4e1449ea06e3b.png",
+    "static/media/shroud_of_flames.png": "/static/media/shroud_of_flames.d48f1761c8ea68bd3074.png",
+    "static/media/soul_reaver.png": "/static/media/soul_reaver.eb928e7f9df978cb4f9d.png",
+    "static/media/mana_burn.png": "/static/media/mana_burn.7bdf1253d39a17c0d149.png",
+    "static/media/emp.png": "/static/media/emp.62a931e8fbe76015fa7d.png",
+    "static/media/shock.png": "/static/media/shock.4f07eeee16684ce18c6b.png",
+    "static/media/portal.png": "/static/media/portal.b477ebd17dd298daa8ac.png",
+    "static/media/icy_path.png": "/static/media/icy_path.702f1ca1be819e218f21.png",
+    "static/media/energy_ball.png": "/static/media/energy_ball.bf0345ef434851ad678b.png",
+    "static/media/deafening_blast.png": "/static/media/deafening_blast.922f67c77989849525c0.png",
+    "static/media/firestorm.png": "/static/media/firestorm.b3e4a4d1168ce8553ff5.png",
     "static/media/no_spell.png": "/static/media/no_spell.5ac56c73ca6cbf3b9ac0.png",
+    "static/media/invoke.png": "/static/media/invoke.84a69d56b7720b8b8193.png",
+    "static/media/incinerate.png": "/static/media/incinerate.383b9967ae949cd001f4.png",
     "static/media/imortal.webp": "/static/media/imortal.3f3184bf57a83fc3ea6f.webp",
     "static/media/ancient.webp": "/static/media/ancient.cbf1437eb0de9ec6047f.webp",
     "static/media/legend.webp": "/static/media/legend.87a840c4f5a8e830e56a.webp",
@@ -19,11 +47,11 @@
     "static/media/guardian.webp": "/static/media/guardian.1712854f7cca82353105.webp",
     "static/media/herald.webp": "/static/media/herald.15bc75d20f22bae51050.webp",
     "index.html": "/index.html",
-    "main.28da46c8.css.map": "/static/css/main.28da46c8.css.map",
-    "main.1614b90d.js.map": "/static/js/main.1614b90d.js.map"
+    "main.7e4f2f25.css.map": "/static/css/main.7e4f2f25.css.map",
+    "main.dae19920.js.map": "/static/js/main.dae19920.js.map"
   },
   "entrypoints": [
-    "static/css/main.28da46c8.css",
-    "static/js/main.1614b90d.js"
+    "static/css/main.7e4f2f25.css",
+    "static/js/main.dae19920.js"
   ]
 }
