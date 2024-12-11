@@ -7,6 +7,10 @@ import wex from '../../img/invoker_wex.png';
 import exort from '../../img/invoker_exort.png';
 import invoke from '../../img/invoker_invoke.png';
 import nospell from '../../img/no_spell.png';
+import old_quas from '../../img/icons_old_invoker/quas.jpg';
+import old_wex from '../../img/icons_old_invoker/wex.jpg';
+import old_exort from '../../img/icons_old_invoker/exort.jpg';
+import old_invoke from '../../img/icons_old_invoker/invoke.png';
 
 const PreviusGameState = (props) => {
   return (
@@ -25,15 +29,15 @@ const PreviusGameState = (props) => {
       </ul>
       <ul className="spells__group">
         <li className="square">
-          <img src={quas} alt="quas"></img>
+          <img src={props.mode === 'new' ? quas : old_quas} alt="quas"></img>
           <span>{String.fromCharCode(props.keyQuas)}</span>
         </li>
         <li className="square">
-          <img src={wex} alt="wex"></img>
+          <img src={props.mode === 'new' ? wex : old_wex} alt="wex"></img>
           <span>{String.fromCharCode(props.keyWex)}</span>
         </li>
         <li className="square">
-          <img src={exort} alt="exort"></img>
+          <img src={props.mode === 'new' ? exort : old_exort} alt="exort"></img>
           <span>{String.fromCharCode(props.keyExort)}</span>
         </li>
         <li className="square">
@@ -45,7 +49,7 @@ const PreviusGameState = (props) => {
           <span>F</span>
         </li>
         <li className="square">
-          <img src={invoke} alt="invoke"></img>
+          <img src={props.mode === 'new' ? invoke : old_invoke} alt="invoke"></img>
           <span>{String.fromCharCode(props.keyInvoke)}</span>
         </li>
       </ul>

@@ -1,7 +1,8 @@
 @font-face {
     font-family: TrajanPro; /* Гарнитура шрифта */
     src: url('../public/fonts/TrajanPro-Bold.otf'); /* Путь к файлу со шрифтом */
-   }
+}
+
 *{
     margin: 0 ;
     padding: 0;
@@ -9,22 +10,45 @@
     box-sizing: border-box;
     font-family: TrajanPro, serif;
     font-weight: 400;
-    
-
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Ползунок скролла */
+::-webkit-scrollbar-thumb {
+    background: #ffffff; /* цвет или градиент */
+    border-radius: 10px; /* скругление */
+}
+
+/* Фон полосы скролла */
+::-webkit-scrollbar-track {
+    background: #141313; /* цвет фона */
+    border-radius: 10px;
+}
+
+/* При наведении на ползунок */
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #ff6a6a, #ffc3a0); /* другой цвет при наведении */
+}
+
 
 body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../src/img/background.png");
     background-position: center;
     overflow-x:hidden;
     zoom: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .App {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    // height: 100vh;
 
 }
 .header {
@@ -58,8 +82,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
-    height: 100vh;
+    // margin-top: 70px;
+    // height: 100vh;
 }
 
 .secondBlock {
@@ -171,7 +195,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 15px;
     list-style: none;
     font-size: 17px;
     img{
@@ -257,14 +281,10 @@ body{
 }
 
 @media screen and (max-width: 1410px) {
-    .controlls {
-        width: 250px;
-    }
     .mainSection{
         width: 500px
     }
     .spells {
-        width: 250px;
         font-size: 16px;
     }
     .spells__group{
@@ -313,7 +333,6 @@ body{
 
 @media screen and (max-width: 1090px) {
     .controlls {
-        width: 200px;
         .controll__list{
             li{
                 img{
@@ -343,7 +362,6 @@ body{
         }
     }
     .spells {
-        width: 200px;
         font-size: 16px;
         li{
             p{
