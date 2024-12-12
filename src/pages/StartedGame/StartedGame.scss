@@ -1,33 +1,31 @@
 
 
 .mainSection {
-    width: 750px;
-    height: 750px;
-    border-radius:  20px;
-    background-color: #141313;
-    -webkit-border-radius:  20px;
-    -moz-border-radius:  20px;
-    -ms-border-radius:  20px;
-    -o-border-radius:  20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    // width: 750px;
+    // height: 750px;
+    // border-radius:  20px;
+    // background-color: #141313;
+    // -webkit-border-radius:  20px;
+    // -moz-border-radius:  20px;
+    // -ms-border-radius:  20px;
+    // -o-border-radius:  20px;
+    // box-shadow: 0 0 10px rgba(0,0,0,0.5);
         h1{
             text-align: center;
-            margin-top: 50px;
         }
         img{
             display: block;
-            margin-top: 10px;
             margin-left: auto;
             margin-right: auto;
             
         }
 
         .window{
-            display: flex;
-            margin: 0 auto;
-            margin-top: 50px;
-            list-style: none;
-            justify-content: center;
+            // display: flex;
+            // margin: 0 auto;
+            // margin-top: 50px;
+            // list-style: none;
+            // justify-content: center;
             .circle {
                 display: flex;
                 align-items: center;
@@ -52,33 +50,14 @@
         }
 }
 
-.spells {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px;
-    width: 300px;
-    height: 750px;
-    border-radius:  20px;
-    background-color: #141313;
-    -webkit-border-radius:  20px;
-    -moz-border-radius:  20px;
-    -ms-border-radius:  20px;
-    -o-border-radius:  20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-        h2{
-            text-align: center;
-        }
-}
+
 
 
 .spells__group{
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
     .square{
         display: flex;
-        margin-top: 30px;
         width: 110px;
         height: 110px;
         border: 5px solid #1d1c1c;
@@ -101,20 +80,9 @@
 }
 
 .controll__list{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    margin-top: 15px;
-    list-style: none;
     img{
         width: 70px;
         
-    }
-    li{ 
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-bottom: 30px;
     }
     p{  
         margin-top: 0;
@@ -126,11 +94,6 @@
 }
 
 .spell__list{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    margin-top: 10px;
-    list-style: none;
     img{
         width: 50px;    
     }
@@ -149,30 +112,11 @@
     }
 }
 
-.controlls {
-    padding: 15px;
-    width: 300px;
-    height: 750px;
-    border-radius:  20px;
-    background-color: #141313;
-    -webkit-border-radius:  20px;
-    -moz-border-radius:  20px;
-    -ms-border-radius:  20px;
-    -o-border-radius:  20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-        h2{
-            text-align: center;
-        }
-    
-
-}
-
 .curent__spell{
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 15px;
-    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
@@ -193,7 +137,6 @@
     align-items: center;
     justify-content: space-around;
     padding: 15px;
-    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 200px;

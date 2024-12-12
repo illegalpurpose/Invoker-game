@@ -54,7 +54,7 @@ import soul_blast from '../../img/icons_old_invoker/soul_blast.png';
 const StartedGame = (props) => {
   return (
      <div className='mainSection'>
-        <h1 style={{fontSize: '60px', marginTop: '70px', marginBottom: '70px'}}>{props.valueTimer}</h1>
+        <h1 style={{fontSize: '60px', marginTop: '30px', marginBottom: '30px'}}>{props.valueTimer}</h1>
         {
           props.mode === 'new' ?
             <div className='curent__spell'>

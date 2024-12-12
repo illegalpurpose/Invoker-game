@@ -38,7 +38,6 @@ body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../src/img/background.png");
     background-position: center;
     overflow-x:hidden;
-    zoom: 0.8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +47,8 @@ body{
     display: flex;
     flex-direction: column;
     width: 100vw;
-    // height: 100vh;
+    height: 100vh;
+    row-gap: 10px;
 
 }
 .header {
@@ -82,8 +82,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    // margin-top: 70px;
-    // height: 100vh;
+    height: calc(100% - 100px);
 }
 
 .secondBlock {
@@ -194,8 +193,8 @@ body{
 .controll__list{
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    margin-top: 15px;
+    overflow-y: scroll;
+    row-gap: 15px;
     list-style: none;
     font-size: 17px;
     img{
@@ -206,7 +205,6 @@ body{
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-bottom: 30px;
     }
     p{  
         margin-top: 0;
@@ -220,8 +218,8 @@ body{
 .spell__list{
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
     margin: 0 auto;
-    margin-top: 10px;
     list-style: none;
     img{
         width: 50px;    
@@ -244,7 +242,10 @@ body{
 .controlls {
     padding: 15px;
     width: 300px;
-    height: 750px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border-radius:  20px;
     background-color: #141313;
     -webkit-border-radius:  20px;
@@ -255,8 +256,26 @@ body{
         h2{
             text-align: center;
         }
-    
+}
 
+.spells {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 300px;
+    height: 100%;
+    justify-content: space-between;
+    border-radius:  20px;
+    background-color: #141313;
+    -webkit-border-radius:  20px;
+    -moz-border-radius:  20px;
+    -ms-border-radius:  20px;
+    -o-border-radius:  20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        h2{
+            text-align: center;
+        }
 }
 
 .img{
@@ -270,7 +289,6 @@ body{
 .keybinds{
     display: flex;
     justify-content: space-between;
-    margin-top: 15px;
 }
 .key__binds__button{
     background-color: #141313;
@@ -288,10 +306,8 @@ body{
         font-size: 16px;
     }
     .spells__group{
-        margin-top: 30px;
         .square{
             display: flex;
-            margin-top: 30px;
             width: 80px;
             height: 80px;
             border: 5px solid #1d1c1c;
@@ -354,11 +370,7 @@ body{
     .mainSection{
         width: 400px;
         h1{
-            margin-top: 15px;
             font-size: 30px;
-        }
-        img{
-            margin-top: 50px;
         }
     }
     .spells {
@@ -367,14 +379,12 @@ body{
             p{
                 font-size: 16px;
             }
-            margin-bottom: 10px;
+            
         }
     }
     .spells__group{
-        margin-top: 30px;
         .square{
             display: flex;
-            margin-top: 30px;
             width: 60px;
             height: 60px;
             border: 5px solid #1d1c1c;
@@ -432,7 +442,6 @@ body{
         display: none;
         width: 500px;
         height: 650px;
-        margin-bottom: 20px;
         .controll__list{
             li{
                 img{
@@ -458,15 +467,11 @@ body{
             margin-top: 15px;
             font-size: 30px;
         }
-        img{
-            margin-top: 20px;
-        }
     }
     .spells {
         display: none;
         width: 500px;
         font-size: 16px;
-        margin-top: 20px;
         li{
             p{
                 font-size: 16px;
@@ -475,10 +480,8 @@ body{
         }
     }
     .spells__group{
-        margin-top: 30px;
         .square{
             display: flex;
-            margin-top: 30px;
             width: 60px;
             height: 60px;
             border: 5px solid #1d1c1c;
@@ -537,7 +540,6 @@ body{
     .controlls {
         width: 300px;
         height: 650px;
-        margin-bottom: 20px;
         .controll__list{
             li{
                 img{
@@ -570,11 +572,7 @@ body{
             }
         }
         h1{
-            margin-top: 15px;
             font-size: 30px;
-        }
-        img{
-            margin-top: 20px;
         }
     }
     .spells {
@@ -590,10 +588,8 @@ body{
         }
     }
     .spells__group{
-        margin-top: 30px;
         .square{
             display: flex;
-            margin-top: 30px;
             width: 40px;
             height: 40px;
             border: 5px solid #1d1c1c;
