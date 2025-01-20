@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.c13f0fcc.css",
-    "main.js": "/static/js/main.e26fd3c9.js",
+    "main.js": "/static/js/main.19505ccc.js",
     "static/media/background.png": "/static/media/background.8ebbb2fd0943b20a1e5e.png",
     "static/media/invoker1.gif": "/static/media/invoker1.bd717a6fa01e9a369f9c.gif",
+    "static/media/invoker2.gif": "/static/media/invoker2.d869abaf521e85197572.gif",
     "static/media/TrajanPro-Bold.otf": "/static/media/TrajanPro-Bold.3f14e0ffe7b54e407289.otf",
     "static/media/invoker_exort.png": "/static/media/invoker_exort.a56f53208bb284a9d01c.png",
     "static/media/invoker_invoke.png": "/static/media/invoker_invoke.a06dc8565470549cac5f.png",
@@ -48,10 +49,10 @@
     "static/media/herald.webp": "/static/media/herald.15bc75d20f22bae51050.webp",
     "index.html": "/index.html",
     "main.c13f0fcc.css.map": "/static/css/main.c13f0fcc.css.map",
-    "main.e26fd3c9.js.map": "/static/js/main.e26fd3c9.js.map"
+    "main.19505ccc.js.map": "/static/js/main.19505ccc.js.map"
   },
   "entrypoints": [
     "static/css/main.c13f0fcc.css",
-    "static/js/main.e26fd3c9.js"
+    "static/js/main.19505ccc.js"
   ]
 }
