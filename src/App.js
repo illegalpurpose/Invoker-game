@@ -636,7 +636,7 @@ function App() {
         path="/"
         element={
           <div className="App">
-            <div id="yandex_rtb_R-A-13260354-1" style={{backgroundColor: '#fff', width: '100%', height: '120px'}}></div>
+            <div id="yandex_rtb_R-A-13260354-1" style={{width: '100%', height: '90px'}}></div>
             <div className="firstBlock">
               {onClickOverlay ? <Overlay keyName={bindKeyName} /> : null}
               <div className="controlls">

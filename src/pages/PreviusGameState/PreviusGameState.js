@@ -1,7 +1,7 @@
 import React from 'react';
 import './PreviusGameState.scss';
 
-import invoker1 from '../../img/invoker1.gif';
+import invoker1 from '../../img/invoker2.gif';
 import quas from '../../img/invoker_quas.png';
 import wex from '../../img/invoker_wex.png';
 import exort from '../../img/invoker_exort.png';
@@ -16,13 +16,13 @@ const PreviusGameState = (props) => {
   return (
     <div className="mainSection">
       <h1>
-        Invoker Game by <a href="https://twitter.com/iturturika">ozzy</a>
+        Invoker Game by ozzy
       </h1>
       <div style={{width: '100%', display: 'flex', justifyContent: 'center'}}>
         <button className='key__binds__button' style={props.mode === 'new' ? {borderStyle: 'inset'} : {borderStyle: 'outset'}} onClick={() => {props.setMode('new')}}>New</button>
         <button className='key__binds__button' style={props.mode === 'old' ? {borderStyle: 'inset'} : {borderStyle: 'outset'}} onClick={() => {props.setMode('old')}}>Old</button>
       </div>
-      <img src={invoker1} alt="invoker" className="img"></img>
+      <img src={invoker1} alt="invoker" className="img" style={{border: "5px solid #1d1c1c", borderStyle: "groove", width: "150px", height: "150px"}}></img>
       <button className="button" onClick={props.startGame}>
         Start Game
       </button>

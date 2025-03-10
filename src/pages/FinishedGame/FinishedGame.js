@@ -1,7 +1,7 @@
 import React from 'react'
 import './FinishedGame.scss';
 
-import invoker1 from '../../img/invoker1.gif';
+import invoker1 from '../../img/invoker2.gif';
 import herald from '../../img/herald.webp';
 import guardian from '../../img/guardian.webp';
 import crusader from '../../img/crusader.webp';
@@ -16,7 +16,7 @@ console.log(props.resultGame, props.record)
   return (
      <div className='mainSection'>
         <h1>Invoker Game by <a href='https://twitter.com/iturturika'>ozzy</a></h1>
-        <img src={invoker1} alt='invoker' className='img'></img>
+        <img src={invoker1} alt="invoker" className="img" style={{border: "5px solid #1d1c1c", borderStyle: "groove", width: "150px", height: "150px"}}></img>
         <h2>Game finished!</h2>
         {props.mode === 'new' && props.resultGame >= 25 ? <img src={herald} style={{width: '90px'}} alt='herald'></img> : null}
         {props.mode === 'new' && props.resultGame >= 20 && props.resultGame < 25 ? <img src={guardian} style={{width: '90px'}} alt='guardian'></img> : null}

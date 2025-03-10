@@ -35,7 +35,8 @@
 
 
 body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../src/img/background.png");
+    //background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../src/img/background.png");
+    background-color: #151515;
     background-position: center;
     overflow-x:hidden;
     display: flex;
@@ -83,6 +84,8 @@ body{
     justify-content: center;
     align-items: center;
     height: calc(100% - 100px);
+    padding-bottom: 10px;
+    height: 550px;
 }
 
 .secondBlock {
@@ -198,8 +201,8 @@ body{
     list-style: none;
     font-size: 17px;
     img{
-        width: 70px;
-        
+        width: 50px;
+        height: 50px;
     }
     li{ 
         display: flex;
@@ -210,7 +213,7 @@ body{
         margin-top: 0;
         margin-bottom: 0;
         margin-left: 20px;
-        font-size: 18px;
+        font-size: 16px;
         
     }
 }
@@ -223,6 +226,7 @@ body{
     list-style: none;
     img{
         width: 50px;    
+        height: 50px;
     }
     li{ 
         display: flex;
@@ -234,7 +238,7 @@ body{
         margin-top: 0;
         margin-bottom: 0;
         margin-left: 20px;
-        font-size: 18px;
+        font-size: 16px;
         
     }
 }
@@ -297,36 +301,18 @@ body{
     border-style: groove;
     cursor: pointer;
 }
+.mainSection{
+    width: 500px;
+}
+
+
 
 @media screen and (max-width: 1410px) {
     .mainSection{
-        width: 500px
+        width: 500px;
     }
     .spells {
         font-size: 16px;
-    }
-    .spells__group{
-        .square{
-            display: flex;
-            width: 80px;
-            height: 80px;
-            border: 5px solid #1d1c1c;
-            border-style: groove;
-            padding: 2px;
-            span{
-                margin-left: 45px;
-                position: absolute;
-                z-index: 1;
-                width: 1px;
-                height: 1px;
-            }
-            img{
-                margin: 0;
-                position: relative;
-                width: 70px;
-                height: 70px;
-            }
-        }
     }
     .about{
         width: 500px;
@@ -368,7 +354,6 @@ body{
         }
     }
     .mainSection{
-        width: 400px;
         h1{
             font-size: 30px;
         }
@@ -382,29 +367,7 @@ body{
             
         }
     }
-    .spells__group{
-        .square{
-            display: flex;
-            width: 60px;
-            height: 60px;
-            border: 5px solid #1d1c1c;
-            border-style: groove;
-            padding: 2px;
-            span{
-                margin-left: 40px;
-                position: absolute;
-                z-index: 1;
-                width: 1px;
-                height: 1px;
-            }
-            img{
-                margin: 0;
-                position: relative;
-                width: 50px;
-                height: 50px;
-            }
-        }
-    }
+   
     .about{
         width: 400px;
         height: 1230px;
@@ -479,29 +442,7 @@ body{
             margin-bottom: 10px;
         }
     }
-    .spells__group{
-        .square{
-            display: flex;
-            width: 60px;
-            height: 60px;
-            border: 5px solid #1d1c1c;
-            border-style: groove;
-            padding: 2px;
-            span{
-                margin-left: 40px;
-                position: absolute;
-                z-index: 1;
-                width: 1px;
-                height: 1px;
-            }
-            img{
-                margin: 0;
-                position: relative;
-                width: 50px;
-                height: 50px;
-            }
-        }
-    }
+   
     .about{
         width: 500px;
         height: 1000px;
