@@ -1,4 +1,3 @@
-import React from "react";
 import "./PreviusGameState.scss";
 
 import invoker1 from "../../img/invoker2.gif";
@@ -11,16 +10,8 @@ import old_quas from "../../img/icons_old_invoker/quas.jpg";
 import old_wex from "../../img/icons_old_invoker/wex.jpg";
 import old_exort from "../../img/icons_old_invoker/exort.jpg";
 import old_invoke from "../../img/icons_old_invoker/invoke.png";
-import TelegramPopup from "../../components/telegram_popup/telegram_popup";
 
 const PreviusGameState = (props) => {
-	const [visible, setVisible] = React.useState(false);
-
-	React.useEffect(() => {
-		setTimeout(() => {
-			setVisible(true);
-		}, 5000);
-	});
 	return (
 		<div className="mainSection">
 			<h1>Invoker Game by ozzy</h1>
@@ -61,21 +52,17 @@ const PreviusGameState = (props) => {
 					marginRight: "auto"
 				}}
 			>
-				{visible ? (
-					<TelegramPopup />
-				) : (
-					<img
-						src={invoker1}
-						alt="invoker"
-						className="img"
-						style={{
-							border: "5px solid #1d1c1c",
-							borderStyle: "groove",
-							width: "150px",
-							height: "150px"
-						}}
-					/>
-				)}
+				<img
+					src={invoker1}
+					alt="invoker"
+					className="img"
+					style={{
+						border: "5px solid #1d1c1c",
+						borderStyle: "groove",
+						width: "150px",
+						height: "150px"
+					}}
+				/>
 			</div>
 
 			<button className="button" onClick={props.startGame}>
